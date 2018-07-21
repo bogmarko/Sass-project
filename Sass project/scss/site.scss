@@ -1,0 +1,204 @@
+body,
+h1,
+h2,
+ul {
+    margin: 0;
+}
+
+$white: #fff;
+
+$color-tom: tomato;
+
+$orange: #ffbf00;
+
+h1 {
+    color: $orange;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+
+a {
+
+    color: $color-tom;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: none;
+        color: $white;
+
+
+        &:active {
+            color: orange;
+        }
+    }
+}
+
+
+body {
+
+    background: $white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+//navbar
+.navbar {
+
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: #444;
+    padding: 30px;
+}
+
+
+.sitename {
+
+    color: $orange;
+    display: inline;
+    margin-left: 40px;
+}
+
+
+.siteNameHolder {
+    width: 30%;
+    background-color: #444;
+    float: left;
+}
+
+
+.sitename {
+    width: 100%;
+    color: $orange;
+    font-size: 25px;
+    margin-left: 40px;
+    font-weight: bolder;
+
+
+}
+
+
+.navigation {
+    width: 70%;
+    background-color: #444;
+    float: left;
+
+}
+
+.list {
+    width: 100%;
+    font-size: 25px;
+}
+
+
+ul {
+    list-style-type: none;
+    float: right;
+
+    li {
+        display: inline;
+        padding-right: 70px;
+
+
+    }
+}
+
+#welcomeImg {
+    width: 100%;
+    height: 100%;
+}
+
+
+.welcome {
+    overflow: hidden;
+    padding-top: 100px;
+    width: 850px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+.greetings {
+
+    text-align: center;
+    margin-top: 160px;
+    margin-bottom: 230px;
+
+}
+
+.info {
+    width: 100%;
+}
+
+.txt {
+
+    background-color: $orange;
+    padding: 110px 110px;
+    margin-top: 30px;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 20px;
+}
+
+#about {
+    margin-top: 30px;
+}
+
+.pics {
+
+    .ideaimg,
+    .gearsimg,
+    .shareimg {
+
+        width: 90px;
+        lenght: 90px;
+    }
+
+
+
+    .section-boxes {
+
+        width: 100%;
+        text-align: center;
+        background-color: whitesmoke;
+
+
+
+        article {
+
+            padding: 80px 70px;
+            display: inline-block;
+            max-width: 200px;
+            width: 100%;
+            margin: auto;
+        }
+
+
+
+    }
+
+
+}
+
+
+
+.footer {
+    float: left;
+    width: 100%;
+    background: #444;
+    margin: 0;
+
+
+    .foot {
+        color: $color-tom;
+        padding: 5px;
+        text-align: center;
+    }
+}
